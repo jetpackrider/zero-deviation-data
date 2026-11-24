@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "state": "HI",
+  "stateFips": "15",
+  "censusVintage": "2020 (January 2023 TABBLOCK20 re-release)",
+  "draDataVersion": "v08",
+  "precinctKind": "bg",
+  "attribution": "Contains adapted Dave's Redistricting data (https://github.com/dra2020/vtd_data), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Do not sell. U.S. Census Bureau data are public domain. Block data credit: https://github.com/dra2020/block_data.",
+  "sources": {
+    "tiger": {
+      "url": "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_15_tabblock20.zip",
+      "sha256": "c29683118cd7eada4bd4672e30de6bdd5638a752c1d0f7f795b4dd580c02259e"
+    },
+    "precincts": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/HI/Demographic_Data_HI.v08.zip",
+      "sha256": "76b4b3e1650e83f9602bb2972c45ca741fd69adca9a17582da478bd185033d1e"
+    },
+    "graph": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/HI/Geojson_HI.v08.zip",
+      "sha256": "aef8e9f2f6dc1bcba869620199c11e32a7bb47af77b4fb9183add021ed1d58d4"
+    },
+    "blockCatalog": {
+      "url": "https://raw.githubusercontent.com/dra2020/block_data/d0e617bd8607bd40be882c344f7b20500ace993b/2020_Geography/HI/Demographic_Data_Block_HI.v08.md",
+      "sha256": "27cf26bc7c204ad59fc190b345f579b842c28d76b3f5619c49437956413a5b34"
+    },
+    "fixture": {
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2025/119-congressional-district-befs/cd119.zip",
+      "sha256": "1433feb5178dc7b4188ee30f5f7f715851f4400740b8fe1ce606a876c6294bd6"
+    },
+    "blocks": {
+      "url": "https://data.dra2020.net/file/dra-block-data/Demographic_Data_Block_HI.v08.zip",
+      "sha256": "0d3af848d646f9b45880fdcd36e193aa70ff79fd419d4e6309703aaebd240eb4"
+    },
+    "townBaf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST15_HI.zip",
+      "sha256": "99ff6595ad6566804cc4682c9e73b9d854ae127154bffb9b0f2e6e97a7fa8147"
+    },
+    "townPlaces": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sha256": "6e5745b3e1adf7a1e024a988301d484697e2a0f25b3cf10114eef676f09d5c18"
+    }
+  },
+  "attrs": {
+    "file": "attrs.d04059cb9afb1b61803cb827eb4253f87527a796480cfeb9d439c8f864e62961.bin.gz",
+    "sha256": "d04059cb9afb1b61803cb827eb4253f87527a796480cfeb9d439c8f864e62961",
+    "bytes": 277831
+  },
+  "counties": [
+    {
+      "fips": "15001",
+      "features": 4166,
+      "file": "15001.05af7ca6fa0effd9134628a6871004b73ae0ae4737d12e0a538a537038177785.topo.json.gz",
+      "sha256": "05af7ca6fa0effd9134628a6871004b73ae0ae4737d12e0a538a537038177785",
+      "bytes": 269268
+    },
+    {
+      "fips": "15003",
+      "features": 7125,
+      "file": "15003.38216fb1b747532bad8d33a40b0f3096543ef6a33b4dd56ab074bacb4b871971.topo.json.gz",
+      "sha256": "38216fb1b747532bad8d33a40b0f3096543ef6a33b4dd56ab074bacb4b871971",
+      "bytes": 329081
+    },
+    {
+      "fips": "15005",
+      "features": 50,
+      "file": "15005.73bde6352497ca034d2c44278df5df1243ee6adad4226438e2331e2c0fdfd23c.topo.json.gz",
+      "sha256": "73bde6352497ca034d2c44278df5df1243ee6adad4226438e2331e2c0fdfd23c",
+      "bytes": 4240
+    },
+    {
+      "fips": "15007",
+      "features": 1344,
+      "file": "15007.3898ab095a92ac570f505578c7da55dac79d26fb3d5c623da04885f9c7143ded.topo.json.gz",
+      "sha256": "3898ab095a92ac570f505578c7da55dac79d26fb3d5c623da04885f9c7143ded",
+      "bytes": 93802
+    },
+    {
+      "fips": "15009",
+      "features": 2047,
+      "file": "15009.cef1f1ad6208aa24765fac4fd0a99d89ecf324efc0ccfcd2f0b9602fa78f0d35.topo.json.gz",
+      "sha256": "cef1f1ad6208aa24765fac4fd0a99d89ecf324efc0ccfcd2f0b9602fa78f0d35",
+      "bytes": 139958
+    }
+  ],
+  "water": {
+    "file": "water.7dc556b6c73eff16999f54662447720f28ceb42a91a512fd37bc96e5a0485eb0.bin.gz",
+    "sha256": "7dc556b6c73eff16999f54662447720f28ceb42a91a512fd37bc96e5a0485eb0",
+    "bytes": 734
+  },
+  "towns": {
+    "file": "towns.7d1e4814345b3137e3840cc30c81ad7c1619cf1d9fb26029ef8d5730648ca60e.bin.gz",
+    "sha256": "7d1e4814345b3137e3840cc30c81ad7c1619cf1d9fb26029ef8d5730648ca60e",
+    "bytes": 92,
+    "count": 0,
+    "kind": "incorporated-place"
+  }
+}

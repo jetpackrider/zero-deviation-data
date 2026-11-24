@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "state": "NJ",
+  "stateFips": "34",
+  "censusVintage": "2020 (January 2023 TABBLOCK20 re-release)",
+  "draDataVersion": "v08",
+  "precinctKind": "vtd",
+  "attribution": "Contains adapted Dave's Redistricting data (https://github.com/dra2020/vtd_data), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Do not sell. U.S. Census Bureau data are public domain. Block data credit: https://github.com/dra2020/block_data.",
+  "sources": {
+    "tiger": {
+      "url": "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_34_tabblock20.zip",
+      "sha256": "33e5475f232d0f01c6a6448fb041fc38bd23eee1f8f5f5a2878cfb116690ce88"
+    },
+    "precincts": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/NJ/Demographic_Data_NJ.v08.zip",
+      "sha256": "14306a6356a49061e84a0eba0eb2dcdadfd50ebade420617de1b08323a29312d"
+    },
+    "graph": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/NJ/Geojson_NJ.v08.zip",
+      "sha256": "d142cb6c89acd7109bc26d8695ced2c8972f6ce924dce55e6bb0b7003a7630e3"
+    },
+    "blockCatalog": {
+      "url": "https://raw.githubusercontent.com/dra2020/block_data/d0e617bd8607bd40be882c344f7b20500ace993b/2020_Geography/NJ/Demographic_Data_Block_NJ.v08.md",
+      "sha256": "371d8cb1d3bcac5b68ca190b77900d7635a187a6e6738a2384963c1ce68573e5"
+    },
+    "fixture": {
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2025/119-congressional-district-befs/cd119.zip",
+      "sha256": "1433feb5178dc7b4188ee30f5f7f715851f4400740b8fe1ce606a876c6294bd6"
+    },
+    "baf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST34_NJ.zip",
+      "sha256": "179a04d0e2f07f516298218002afe304999fbf272b59387ebb18d550eb34e430"
+    },
+    "blocks": {
+      "url": "https://data.dra2020.net/file/dra-block-data/Demographic_Data_Block_NJ.v08.zip",
+      "sha256": "3a16d2a981ed3cf637d2aae751e58f60818386fad21553f412b8a648ae9a1665"
+    },
+    "townBaf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST34_NJ.zip",
+      "sha256": "179a04d0e2f07f516298218002afe304999fbf272b59387ebb18d550eb34e430"
+    },
+    "townPlaces": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sha256": "6e5745b3e1adf7a1e024a988301d484697e2a0f25b3cf10114eef676f09d5c18"
+    },
+    "townSubdivisions": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_cousubs_national.zip",
+      "sha256": "2225787f98a05729614a0827c805c19e2a3a79b69d62bd94ea1e07a6d4530c66"
+    }
+  },
+  "attrs": {
+    "file": "attrs.5e38753314dbec55879a9fafe7ce22a99c36ceda9e64cb5090709625c684c255.bin.gz",
+    "sha256": "5e38753314dbec55879a9fafe7ce22a99c36ceda9e64cb5090709625c684c255",
+    "bytes": 2489292
+  },
+  "counties": [
+    {
+      "fips": "34001",
+      "features": 7302,
+      "file": "34001.5f166d0bd9fd0b74fecb8514cec11c71b3c4d0ab77e6bc596e03d71798341d04.topo.json.gz",
+      "sha256": "5f166d0bd9fd0b74fecb8514cec11c71b3c4d0ab77e6bc596e03d71798341d04",
+      "bytes": 386306
+    },
+    {
+      "fips": "34003",
+      "features": 12265,
+      "file": "34003.bee88deea8a118cb18d45c3e0721d6fda2be415186b87e2ef16b67cf5a005641.topo.json.gz",
+      "sha256": "bee88deea8a118cb18d45c3e0721d6fda2be415186b87e2ef16b67cf5a005641",
+      "bytes": 613988
+    },
+    {
+      "fips": "34005",
+      "features": 8807,
+      "file": "34005.ea386d13c92f1b5b0b6524d3ce4a039e369bc5cb04a528db1576538fcfaf2dce.topo.json.gz",
+      "sha256": "ea386d13c92f1b5b0b6524d3ce4a039e369bc5cb04a528db1576538fcfaf2dce",
+      "bytes": 544144
+    },
+    {
+      "fips": "34007",
+      "features": 8770,
+      "file": "34007.9967ed9b4e3bc15e0ea9786ebe8769a1168660ebc6039bddf64599d98a7a680c.topo.json.gz",
+      "sha256": "9967ed9b4e3bc15e0ea9786ebe8769a1168660ebc6039bddf64599d98a7a680c",
+      "bytes": 429990
+    },
+    {
+      "fips": "34009",
+      "features": 4537,
+      "file": "34009.07aff5b629ec86a8712c231e1b93796971d260c47e680fcb5c5114051b67cbd3.topo.json.gz",
+      "sha256": "07aff5b629ec86a8712c231e1b93796971d260c47e680fcb5c5114051b67cbd3",
+      "bytes": 222718
+    },
+    {
+      "fips": "34011",
+      "features": 3303,
+      "file": "34011.f888986321a2112aaa4ca933fffd283d26a6d461a12cc669e0ede28da7015aaf.topo.json.gz",
+      "sha256": "f888986321a2112aaa4ca933fffd283d26a6d461a12cc669e0ede28da7015aaf",
+      "bytes": 192634
+    },
+    {
+      "fips": "34013",
+      "features": 7998,
+      "file": "34013.7a06d673034c6e6754a6e3a8bc8f886bc0c57340e3ba6f54c5cbf047cb4974ff.topo.json.gz",
+      "sha256": "7a06d673034c6e6754a6e3a8bc8f886bc0c57340e3ba6f54c5cbf047cb4974ff",
+      "bytes": 391338
+    },
+    {
+      "fips": "34015",
+      "features": 5364,
+      "file": "34015.4d49cae167fa06faa36ed1979f54106229d199c7287e096b33f52be67849644a.topo.json.gz",
+      "sha256": "4d49cae167fa06faa36ed1979f54106229d199c7287e096b33f52be67849644a",
+      "bytes": 292169
+    },
+    {
+      "fips": "34017",
+      "features": 4119,
+      "file": "34017.ed8da8a8236d2e84f1010502bacab5578caf5d40859f474935b74f03afaa4037.topo.json.gz",
+      "sha256": "ed8da8a8236d2e84f1010502bacab5578caf5d40859f474935b74f03afaa4037",
+      "bytes": 189879
+    },
+    {
+      "fips": "34019",
+      "features": 2817,
+      "file": "34019.353dba9f832194ce7fad442be733f5a1b92d3ee7eac3b8e3cff57309f2a3e666.topo.json.gz",
+      "sha256": "353dba9f832194ce7fad442be733f5a1b92d3ee7eac3b8e3cff57309f2a3e666",
+      "bytes": 210429
+    },
+    {
+      "fips": "34021",
+      "features": 5495,
+      "file": "34021.1ad6479ce28491124fb7fdd2e6b5cf71b696c5790be96bfa34febe77cd8f55dd.topo.json.gz",
+      "sha256": "1ad6479ce28491124fb7fdd2e6b5cf71b696c5790be96bfa34febe77cd8f55dd",
+      "bytes": 286008
+    },
+    {
+      "fips": "34023",
+      "features": 10821,
+      "file": "34023.1e14206ec21229fbcebbe1ad371bff1fc5ffe96f1ad3f8f60cc1184f4189bd21.topo.json.gz",
+      "sha256": "1e14206ec21229fbcebbe1ad371bff1fc5ffe96f1ad3f8f60cc1184f4189bd21",
+      "bytes": 547902
+    },
+    {
+      "fips": "34025",
+      "features": 11791,
+      "file": "34025.0aedce91ac3bc6f9be9059c4e18877848afa76fd847777e4163aaefeedf49d62.topo.json.gz",
+      "sha256": "0aedce91ac3bc6f9be9059c4e18877848afa76fd847777e4163aaefeedf49d62",
+      "bytes": 648542
+    },
+    {
+      "fips": "34027",
+      "features": 7969,
+      "file": "34027.6edf6b90e1afae28252daf7b8ea215eccbc7fd7e2ae9b1a69bef1e21af56ea96.topo.json.gz",
+      "sha256": "6edf6b90e1afae28252daf7b8ea215eccbc7fd7e2ae9b1a69bef1e21af56ea96",
+      "bytes": 466344
+    },
+    {
+      "fips": "34029",
+      "features": 11469,
+      "file": "34029.d568943c0c0d6c3e0d41d6ab3645b7181f65725de6cfbb6bfbe3b768030d94c4.topo.json.gz",
+      "sha256": "d568943c0c0d6c3e0d41d6ab3645b7181f65725de6cfbb6bfbe3b768030d94c4",
+      "bytes": 586670
+    },
+    {
+      "fips": "34031",
+      "features": 5938,
+      "file": "34031.a6dc8486e765f98e4eb5801fcf76e233fa31b25d151f6692888c051e2855cfed.topo.json.gz",
+      "sha256": "a6dc8486e765f98e4eb5801fcf76e233fa31b25d151f6692888c051e2855cfed",
+      "bytes": 299924
+    },
+    {
+      "fips": "34033",
+      "features": 2019,
+      "file": "34033.cd07ecbeeb038be187d6f28dc7b8e77fdae66f36332856f21b6764a2c1f613e2.topo.json.gz",
+      "sha256": "cd07ecbeeb038be187d6f28dc7b8e77fdae66f36332856f21b6764a2c1f613e2",
+      "bytes": 122227
+    },
+    {
+      "fips": "34035",
+      "features": 4434,
+      "file": "34035.acbabe2e1b20a10f77983af794bb877bb3a0f7a06b031f5bd30c61abf44087ad.topo.json.gz",
+      "sha256": "acbabe2e1b20a10f77983af794bb877bb3a0f7a06b031f5bd30c61abf44087ad",
+      "bytes": 246411
+    },
+    {
+      "fips": "34037",
+      "features": 3209,
+      "file": "34037.5a52028693e77c1730b1a1f4070204df7b90b1f2a87946fd09544e003f33b181.topo.json.gz",
+      "sha256": "5a52028693e77c1730b1a1f4070204df7b90b1f2a87946fd09544e003f33b181",
+      "bytes": 203363
+    },
+    {
+      "fips": "34039",
+      "features": 6697,
+      "file": "34039.cd805ba2859da9565da94947259e1a7fe129b837a84eaa82ef99bb9a4f5a4c23.topo.json.gz",
+      "sha256": "cd805ba2859da9565da94947259e1a7fe129b837a84eaa82ef99bb9a4f5a4c23",
+      "bytes": 332121
+    },
+    {
+      "fips": "34041",
+      "features": 2848,
+      "file": "34041.6e7d39c355b4e46ddc18e1248b9f84442176e095e9000a3e7a7904e9dc279458.topo.json.gz",
+      "sha256": "6e7d39c355b4e46ddc18e1248b9f84442176e095e9000a3e7a7904e9dc279458",
+      "bytes": 166622
+    }
+  ],
+  "water": {
+    "file": "water.7a8fc9c9546c4be780b5fd35d436e71a6d52acfe520935a8582ee0704499ce37.bin.gz",
+    "sha256": "7a8fc9c9546c4be780b5fd35d436e71a6d52acfe520935a8582ee0704499ce37",
+    "bytes": 5108
+  },
+  "towns": {
+    "file": "towns.876dfa00a3e52f3a244c8c3efbb5d70121fe3e35cd72558e328a8186163aff4d.bin.gz",
+    "sha256": "876dfa00a3e52f3a244c8c3efbb5d70121fe3e35cd72558e328a8186163aff4d",
+    "bytes": 3039,
+    "count": 565,
+    "kind": "county-subdivision"
+  }
+}

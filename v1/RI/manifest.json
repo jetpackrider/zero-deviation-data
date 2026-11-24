@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "state": "RI",
+  "stateFips": "44",
+  "censusVintage": "2020 (January 2023 TABBLOCK20 re-release)",
+  "draDataVersion": "v08",
+  "precinctKind": "vtd",
+  "attribution": "Contains adapted Dave's Redistricting data (https://github.com/dra2020/vtd_data), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Do not sell. U.S. Census Bureau data are public domain. Block data credit: https://github.com/dra2020/block_data.",
+  "sources": {
+    "tiger": {
+      "url": "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_44_tabblock20.zip",
+      "sha256": "79d10c9dfec1e3e0962e13d6295b53856db286a156d9937d3737adb0c542f35b"
+    },
+    "precincts": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/RI/Demographic_Data_RI.v08.zip",
+      "sha256": "e2dd4b6b2bd2301d4c006f6cc02d7eeb71fb0c1f376798ed17432a874b8091a6"
+    },
+    "graph": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/RI/Geojson_RI.v08.zip",
+      "sha256": "cec806912bbcf85eac1eb07af1fb2686c416b9134ab0414441def25ae95bb9d8"
+    },
+    "blockCatalog": {
+      "url": "https://raw.githubusercontent.com/dra2020/block_data/d0e617bd8607bd40be882c344f7b20500ace993b/2020_Geography/RI/Demographic_Data_Block_RI.v08.md",
+      "sha256": "b64a36d9c4efcb405174679dc1665594270eddfd3d90b4fbf19e4f03e6b00dc1"
+    },
+    "fixture": {
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2025/119-congressional-district-befs/cd119.zip",
+      "sha256": "1433feb5178dc7b4188ee30f5f7f715851f4400740b8fe1ce606a876c6294bd6"
+    },
+    "baf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST44_RI.zip",
+      "sha256": "0833228c38a62f9c005b0ac9cb238e2c003e270380679657f7eb2f574966c896"
+    },
+    "blocks": {
+      "url": "https://data.dra2020.net/file/dra-block-data/Demographic_Data_Block_RI.v08.zip",
+      "sha256": "9cc5be4d55eadcf59d4b44ba341e6d272b3afc21003c0a587dc07b32eda326a9"
+    },
+    "townBaf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST44_RI.zip",
+      "sha256": "0833228c38a62f9c005b0ac9cb238e2c003e270380679657f7eb2f574966c896"
+    },
+    "townPlaces": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sha256": "6e5745b3e1adf7a1e024a988301d484697e2a0f25b3cf10114eef676f09d5c18"
+    },
+    "townSubdivisions": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_cousubs_national.zip",
+      "sha256": "2225787f98a05729614a0827c805c19e2a3a79b69d62bd94ea1e07a6d4530c66"
+    }
+  },
+  "attrs": {
+    "file": "attrs.603f78b19f4d121800e5034297364ea04a2f3a8f598476939fb5288fac6c882c.bin.gz",
+    "sha256": "603f78b19f4d121800e5034297364ea04a2f3a8f598476939fb5288fac6c882c",
+    "bytes": 466518
+  },
+  "counties": [
+    {
+      "fips": "44001",
+      "features": 1074,
+      "file": "44001.916a5f90736b95557cee7bbbf5b68ae999f03bfee54247f0a003c2749cbefe1b.topo.json.gz",
+      "sha256": "916a5f90736b95557cee7bbbf5b68ae999f03bfee54247f0a003c2749cbefe1b",
+      "bytes": 63408
+    },
+    {
+      "fips": "44003",
+      "features": 4278,
+      "file": "44003.5c9599f452ff397be436132906d28b896332ae4769017b3eb9cac0fd7948f1be.topo.json.gz",
+      "sha256": "5c9599f452ff397be436132906d28b896332ae4769017b3eb9cac0fd7948f1be",
+      "bytes": 250764
+    },
+    {
+      "fips": "44005",
+      "features": 2539,
+      "file": "44005.e545b41b2924d06d09c6064087b566d3332152fa00e7a6c39920531b04dc8534.topo.json.gz",
+      "sha256": "e545b41b2924d06d09c6064087b566d3332152fa00e7a6c39920531b04dc8534",
+      "bytes": 154847
+    },
+    {
+      "fips": "44007",
+      "features": 13417,
+      "file": "44007.5a1d6acefc3ed6da80a2e0bfe35dfc01da1982289c32fb3128419fbaa33d96cd.topo.json.gz",
+      "sha256": "5a1d6acefc3ed6da80a2e0bfe35dfc01da1982289c32fb3128419fbaa33d96cd",
+      "bytes": 701515
+    },
+    {
+      "fips": "44009",
+      "features": 4341,
+      "file": "44009.471fea2609813d14efa0f6165648e5a09ace4fd1c36da320e3c18d71b16adaec.topo.json.gz",
+      "sha256": "471fea2609813d14efa0f6165648e5a09ace4fd1c36da320e3c18d71b16adaec",
+      "bytes": 273249
+    }
+  ],
+  "water": {
+    "file": "water.36aaec22b76489cf6374cfa2364645c5ee106ecb05f8de5d28380f70a5c9ee0e.bin.gz",
+    "sha256": "36aaec22b76489cf6374cfa2364645c5ee106ecb05f8de5d28380f70a5c9ee0e",
+    "bytes": 940
+  },
+  "towns": {
+    "file": "towns.5c2e80cb380d2a1b035b01ea2df34abdfbb23c3659d8dba30b56f5a16575105c.bin.gz",
+    "sha256": "5c2e80cb380d2a1b035b01ea2df34abdfbb23c3659d8dba30b56f5a16575105c",
+    "bytes": 325,
+    "count": 39,
+    "kind": "county-subdivision"
+  }
+}

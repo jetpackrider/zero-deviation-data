@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "state": "DC",
+  "stateFips": "11",
+  "censusVintage": "2020 (January 2023 TABBLOCK20 re-release)",
+  "draDataVersion": "v06",
+  "precinctKind": "vtd",
+  "attribution": "Contains adapted Dave's Redistricting data (https://github.com/dra2020/vtd_data), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Do not sell. U.S. Census Bureau data are public domain. Block data credit: https://github.com/dra2020/block_data.",
+  "sources": {
+    "tiger": {
+      "url": "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_11_tabblock20.zip",
+      "sha256": "516c9792dfd2e4851433d52ce46749f8d1755c2c66e0f85810e77bf370a0311f"
+    },
+    "precincts": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/DC/Demographic_Data_DC.v06.zip",
+      "sha256": "0d80e2f886e409ff3dd75b47a6f6de1556e6f3da08e4da0d117b1dd38980739e"
+    },
+    "graph": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/DC/Geojson_DC.v06.zip",
+      "sha256": "410fe7838b5c1211bbbec2853d5519357577a8dfd81a477ef46282443b1e1449"
+    },
+    "blockCatalog": {
+      "url": "https://raw.githubusercontent.com/dra2020/block_data/d0e617bd8607bd40be882c344f7b20500ace993b/2020_Geography/DC/Demographic_Data_Block_DC.v06.md",
+      "sha256": "421eaeed9780d70d42e1a6d9d4a7ff724fcde7a69b02af29a5abef84562e5c44"
+    },
+    "fixture": {
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2025/119-congressional-district-befs/cd119.zip",
+      "sha256": "1433feb5178dc7b4188ee30f5f7f715851f4400740b8fe1ce606a876c6294bd6"
+    },
+    "baf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST11_DC.zip",
+      "sha256": "c789c1df0921dfdd9925d1c9747cec0b1c51895f3c1cfd5ee8938e15277eaa48"
+    },
+    "blocks": {
+      "url": "https://data.dra2020.net/file/dra-block-data/Demographic_Data_Block_DC.v06.zip",
+      "sha256": "31cf9116f7b9f5604fd77ef8d446f110cec8b81e6f608e5421df3a9e4c483aa2"
+    },
+    "townBaf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST11_DC.zip",
+      "sha256": "c789c1df0921dfdd9925d1c9747cec0b1c51895f3c1cfd5ee8938e15277eaa48"
+    },
+    "townPlaces": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sha256": "6e5745b3e1adf7a1e024a988301d484697e2a0f25b3cf10114eef676f09d5c18"
+    }
+  },
+  "attrs": {
+    "file": "attrs.158670b41d0045fe8919b23b0ffcc0129b1d7c2294beb6b2a4392ae12eb15d4f.bin.gz",
+    "sha256": "158670b41d0045fe8919b23b0ffcc0129b1d7c2294beb6b2a4392ae12eb15d4f",
+    "bytes": 102572
+  },
+  "counties": [
+    {
+      "fips": "11001",
+      "features": 6012,
+      "file": "11001.2f5c7b9787f4ad737a148174d6334c4e3cee65398ede7761990adf0b43f4c2c3.topo.json.gz",
+      "sha256": "2f5c7b9787f4ad737a148174d6334c4e3cee65398ede7761990adf0b43f4c2c3",
+      "bytes": 282100
+    }
+  ],
+  "water": {
+    "file": "water.e26ae3af2e8854633e0d4e713973f5b1020d378bb775e3d9fc6ad91db4e88723.bin.gz",
+    "sha256": "e26ae3af2e8854633e0d4e713973f5b1020d378bb775e3d9fc6ad91db4e88723",
+    "bytes": 175
+  },
+  "towns": {
+    "file": "towns.d74f37a8baf54d188fc8fc8525b661e07ebcdd03f4c25897611fda67a4bd8338.bin.gz",
+    "sha256": "d74f37a8baf54d188fc8fc8525b661e07ebcdd03f4c25897611fda67a4bd8338",
+    "bytes": 61,
+    "count": 1,
+    "kind": "incorporated-place"
+  }
+}

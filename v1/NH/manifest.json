@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "state": "NH",
+  "stateFips": "33",
+  "censusVintage": "2020 (January 2023 TABBLOCK20 re-release)",
+  "draDataVersion": "v08",
+  "precinctKind": "vtd",
+  "attribution": "Contains adapted Dave's Redistricting data (https://github.com/dra2020/vtd_data), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Do not sell. U.S. Census Bureau data are public domain. Block data credit: https://github.com/dra2020/block_data.",
+  "sources": {
+    "tiger": {
+      "url": "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_33_tabblock20.zip",
+      "sha256": "253ef035968da2645e24effd91570cf7d091575782783840d0a4f0dbd9c63038"
+    },
+    "precincts": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/NH/Demographic_Data_NH.v08.zip",
+      "sha256": "676e7f32974d223febff0209df4bedacc5db4f5a1cbbf82027fa9bf22ae26ac9"
+    },
+    "graph": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/NH/Geojson_NH.v08.zip",
+      "sha256": "96da4df503f46c32735451bcf1458a0fd5f0146ba3fbbaea1a324554c4a8dd35"
+    },
+    "blockCatalog": {
+      "url": "https://raw.githubusercontent.com/dra2020/block_data/d0e617bd8607bd40be882c344f7b20500ace993b/2020_Geography/NH/Demographic_Data_Block_NH.v08.md",
+      "sha256": "0633439d0e7b12bc080b0333851e81057e6719699247b723e405975c76b0c39d"
+    },
+    "fixture": {
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2025/119-congressional-district-befs/cd119.zip",
+      "sha256": "1433feb5178dc7b4188ee30f5f7f715851f4400740b8fe1ce606a876c6294bd6"
+    },
+    "baf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST33_NH.zip",
+      "sha256": "c06b3a004317849b253ef32972f2a6a7e0abf9f71c496e4ddf5578c66c6b7c17"
+    },
+    "blocks": {
+      "url": "https://data.dra2020.net/file/dra-block-data/Demographic_Data_Block_NH.v08.zip",
+      "sha256": "5acc2195ee3e273c5417d7cb1728bed0c719289209219fd2b6d9e9b90a4db7c0"
+    },
+    "townBaf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST33_NH.zip",
+      "sha256": "c06b3a004317849b253ef32972f2a6a7e0abf9f71c496e4ddf5578c66c6b7c17"
+    },
+    "townPlaces": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sha256": "6e5745b3e1adf7a1e024a988301d484697e2a0f25b3cf10114eef676f09d5c18"
+    },
+    "townSubdivisions": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_cousubs_national.zip",
+      "sha256": "2225787f98a05729614a0827c805c19e2a3a79b69d62bd94ea1e07a6d4530c66"
+    }
+  },
+  "attrs": {
+    "file": "attrs.bb3f5b48a1d322abc76314b490d42aa806d45e53ccd4eae088c03058f8529d0b.bin.gz",
+    "sha256": "bb3f5b48a1d322abc76314b490d42aa806d45e53ccd4eae088c03058f8529d0b",
+    "bytes": 592375
+  },
+  "counties": [
+    {
+      "fips": "33001",
+      "features": 1856,
+      "file": "33001.84c6dbebf371981fdb33db9a92f59413cdf16050c90084f890f01c2939461885.topo.json.gz",
+      "sha256": "84c6dbebf371981fdb33db9a92f59413cdf16050c90084f890f01c2939461885",
+      "bytes": 116334
+    },
+    {
+      "fips": "33003",
+      "features": 2411,
+      "file": "33003.956a619cfb547f7171e366aec633205609da9e786d8b1dd3c7ba29501778f673.topo.json.gz",
+      "sha256": "956a619cfb547f7171e366aec633205609da9e786d8b1dd3c7ba29501778f673",
+      "bytes": 166209
+    },
+    {
+      "fips": "33005",
+      "features": 2351,
+      "file": "33005.0a4a20d13e1d1e66488f65464ccbc756112799a501354d02a55205fe20d1359c.topo.json.gz",
+      "sha256": "0a4a20d13e1d1e66488f65464ccbc756112799a501354d02a55205fe20d1359c",
+      "bytes": 144803
+    },
+    {
+      "fips": "33007",
+      "features": 2491,
+      "file": "33007.06bd0f1300cc660bc4e30b884ef3962b1dfab491b708411f422062440ec3b86e.topo.json.gz",
+      "sha256": "06bd0f1300cc660bc4e30b884ef3962b1dfab491b708411f422062440ec3b86e",
+      "bytes": 181351
+    },
+    {
+      "fips": "33009",
+      "features": 3502,
+      "file": "33009.a141d5013583c639a383d396ded61c107754f6648c29f316c0055a7a18f79a10.topo.json.gz",
+      "sha256": "a141d5013583c639a383d396ded61c107754f6648c29f316c0055a7a18f79a10",
+      "bytes": 223540
+    },
+    {
+      "fips": "33011",
+      "features": 6910,
+      "file": "33011.a3d97610eeea8b3c49b490d9d94e6e30d750ff6299b68cecde74f5d157852a19.topo.json.gz",
+      "sha256": "a3d97610eeea8b3c49b490d9d94e6e30d750ff6299b68cecde74f5d157852a19",
+      "bytes": 384244
+    },
+    {
+      "fips": "33013",
+      "features": 3675,
+      "file": "33013.bd86cc7e9b17de7104f4a617466c6934ef70c52a231a8468d166ff82fee7ffc1.topo.json.gz",
+      "sha256": "bd86cc7e9b17de7104f4a617466c6934ef70c52a231a8468d166ff82fee7ffc1",
+      "bytes": 211065
+    },
+    {
+      "fips": "33015",
+      "features": 5096,
+      "file": "33015.63ac2affa6ea523b11627686217a2f8c09c22bd543ec239be1df77876d0a9577.topo.json.gz",
+      "sha256": "63ac2affa6ea523b11627686217a2f8c09c22bd543ec239be1df77876d0a9577",
+      "bytes": 298924
+    },
+    {
+      "fips": "33017",
+      "features": 2102,
+      "file": "33017.9893ade125c68d0fb4a7182c123c524762ee3e3d48bb094d1d589e5710fc7de3.topo.json.gz",
+      "sha256": "9893ade125c68d0fb4a7182c123c524762ee3e3d48bb094d1d589e5710fc7de3",
+      "bytes": 124817
+    },
+    {
+      "fips": "33019",
+      "features": 1554,
+      "file": "33019.ec7aa855e9a6e1d1efd417c9f989d590a1703956e7d0e4a1792e1201466304f9.topo.json.gz",
+      "sha256": "ec7aa855e9a6e1d1efd417c9f989d590a1703956e7d0e4a1792e1201466304f9",
+      "bytes": 100361
+    }
+  ],
+  "water": {
+    "file": "water.e7f59d0f102a1f7533a5595970d07f99223a9b22bc4b0f0fcd82c49f1cc4fb0a.bin.gz",
+    "sha256": "e7f59d0f102a1f7533a5595970d07f99223a9b22bc4b0f0fcd82c49f1cc4fb0a",
+    "bytes": 1569
+  },
+  "towns": {
+    "file": "towns.0667d41823d7fd145ce7a3ca81227f0062ea591ab7efb72b2fb8dc8a194828b4.bin.gz",
+    "sha256": "0667d41823d7fd145ce7a3ca81227f0062ea591ab7efb72b2fb8dc8a194828b4",
+    "bytes": 1232,
+    "count": 234,
+    "kind": "county-subdivision"
+  }
+}

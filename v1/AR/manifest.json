@@ -1,0 +1,591 @@
+{
+  "format": 1,
+  "state": "AR",
+  "stateFips": "05",
+  "censusVintage": "2020 (January 2023 TABBLOCK20 re-release)",
+  "draDataVersion": "v08",
+  "precinctKind": "vtd",
+  "attribution": "Contains adapted Dave's Redistricting data (https://github.com/dra2020/vtd_data), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Do not sell. U.S. Census Bureau data are public domain. Block data credit: https://github.com/dra2020/block_data.",
+  "sources": {
+    "tiger": {
+      "url": "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_05_tabblock20.zip",
+      "sha256": "5b330f40bf913349b428e8b19bba46bc6e2fef24b78393f8477b5b96870fe6e8"
+    },
+    "precincts": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/AR/Demographic_Data_AR.v08.zip",
+      "sha256": "c43de8d215b56ac313336859b3301e2c2f4faf500efdb233a3a26075ec58f7d0"
+    },
+    "graph": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/AR/Geojson_AR.v08.zip",
+      "sha256": "926a097d1957523e65e1333324a2f0c9ae9143a32bdc3a4e3ae5d3b2474a896a"
+    },
+    "blockCatalog": {
+      "url": "https://raw.githubusercontent.com/dra2020/block_data/d0e617bd8607bd40be882c344f7b20500ace993b/2020_Geography/AR/Demographic_Data_Block_AR.v08.md",
+      "sha256": "54a8e9c22e197919351c33bfa648ab53dd307012677a5a30cdaa236a925ca1a0"
+    },
+    "fixture": {
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2025/119-congressional-district-befs/cd119.zip",
+      "sha256": "1433feb5178dc7b4188ee30f5f7f715851f4400740b8fe1ce606a876c6294bd6"
+    },
+    "baf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST05_AR.zip",
+      "sha256": "199b6bd6c96f2e7b868d307d13c393dffe76f55e15e0df7a67932412351de996"
+    },
+    "blocks": {
+      "url": "https://data.dra2020.net/file/dra-block-data/Demographic_Data_Block_AR.v08.zip",
+      "sha256": "6b7c5404e5ef8158876f7b770b52a5cf20e7e193c1a5af940c9fb0dab7b06b8c"
+    },
+    "townBaf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST05_AR.zip",
+      "sha256": "199b6bd6c96f2e7b868d307d13c393dffe76f55e15e0df7a67932412351de996"
+    },
+    "townPlaces": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sha256": "6e5745b3e1adf7a1e024a988301d484697e2a0f25b3cf10114eef676f09d5c18"
+    }
+  },
+  "attrs": {
+    "file": "attrs.d6dacf006b371fa514a905e5b4a19ab7473d894ce92dfbcc948091a412761bbe.bin.gz",
+    "sha256": "d6dacf006b371fa514a905e5b4a19ab7473d894ce92dfbcc948091a412761bbe",
+    "bytes": 2510222
+  },
+  "counties": [
+    {
+      "fips": "05001",
+      "features": 1959,
+      "file": "05001.673eda82d66dc94747420f3fa59d3ef5943780d2488d76122ceadf1046997805.topo.json.gz",
+      "sha256": "673eda82d66dc94747420f3fa59d3ef5943780d2488d76122ceadf1046997805",
+      "bytes": 118943
+    },
+    {
+      "fips": "05003",
+      "features": 1481,
+      "file": "05003.fbdd52398b59de12465be60464e88efcc3607776975e477c767d160af70a38c7.topo.json.gz",
+      "sha256": "fbdd52398b59de12465be60464e88efcc3607776975e477c767d160af70a38c7",
+      "bytes": 102092
+    },
+    {
+      "fips": "05005",
+      "features": 1993,
+      "file": "05005.56c666940cf57167b98a065feb19a7f283ff5397759c7a03e7c4d5b13d280ef9.topo.json.gz",
+      "sha256": "56c666940cf57167b98a065feb19a7f283ff5397759c7a03e7c4d5b13d280ef9",
+      "bytes": 127274
+    },
+    {
+      "fips": "05007",
+      "features": 5942,
+      "file": "05007.36db4f712d07bdb98c5ceac9e48b1a7c81f643859eae287ab10bab8fd364e85d.topo.json.gz",
+      "sha256": "36db4f712d07bdb98c5ceac9e48b1a7c81f643859eae287ab10bab8fd364e85d",
+      "bytes": 339938
+    },
+    {
+      "fips": "05009",
+      "features": 2040,
+      "file": "05009.3d8b3e49b773d66bfe5f9b7c246516c11a7f19c1f8c5bf38c69833932239f91e.topo.json.gz",
+      "sha256": "3d8b3e49b773d66bfe5f9b7c246516c11a7f19c1f8c5bf38c69833932239f91e",
+      "bytes": 130897
+    },
+    {
+      "fips": "05011",
+      "features": 933,
+      "file": "05011.ef56d4d6a5d1be67b4b02c07fb7a0fa6bb0c6a6c397f473d7f07c9bc69c95ff5.topo.json.gz",
+      "sha256": "ef56d4d6a5d1be67b4b02c07fb7a0fa6bb0c6a6c397f473d7f07c9bc69c95ff5",
+      "bytes": 63340
+    },
+    {
+      "fips": "05013",
+      "features": 823,
+      "file": "05013.bc9cb8e31392c85d811100276854d2668d13f9c49719d1c5d606930d7c8428da.topo.json.gz",
+      "sha256": "bc9cb8e31392c85d811100276854d2668d13f9c49719d1c5d606930d7c8428da",
+      "bytes": 61875
+    },
+    {
+      "fips": "05015",
+      "features": 1517,
+      "file": "05015.c3715aba56c70846cea7e1eba299fc6fa44e352f95363ecd45cf1ed898039951.topo.json.gz",
+      "sha256": "c3715aba56c70846cea7e1eba299fc6fa44e352f95363ecd45cf1ed898039951",
+      "bytes": 99718
+    },
+    {
+      "fips": "05017",
+      "features": 989,
+      "file": "05017.94ed9e1e3a636f705d384369c59979843e70e11cfc32036d9a6500aabc316848.topo.json.gz",
+      "sha256": "94ed9e1e3a636f705d384369c59979843e70e11cfc32036d9a6500aabc316848",
+      "bytes": 60636
+    },
+    {
+      "fips": "05019",
+      "features": 1635,
+      "file": "05019.f9420815566955495a999e91bcef42eed8def08499cc6ec9bc5103963df40620.topo.json.gz",
+      "sha256": "f9420815566955495a999e91bcef42eed8def08499cc6ec9bc5103963df40620",
+      "bytes": 120951
+    },
+    {
+      "fips": "05021",
+      "features": 1588,
+      "file": "05021.8e3f4f999e31456fc32def46071a2846ae45cc0e74a2eb0428795b109bd33e07.topo.json.gz",
+      "sha256": "8e3f4f999e31456fc32def46071a2846ae45cc0e74a2eb0428795b109bd33e07",
+      "bytes": 86529
+    },
+    {
+      "fips": "05023",
+      "features": 1344,
+      "file": "05023.f6503e2ffd05b3d614bdd89ae0c947f3ec10c889ba270a82fdb9d587693efdda.topo.json.gz",
+      "sha256": "f6503e2ffd05b3d614bdd89ae0c947f3ec10c889ba270a82fdb9d587693efdda",
+      "bytes": 98104
+    },
+    {
+      "fips": "05025",
+      "features": 596,
+      "file": "05025.d2d9d85deffaaed4bc7bf6b58ebfd2eb31846d06c1b665c723e5641465229b5f.topo.json.gz",
+      "sha256": "d2d9d85deffaaed4bc7bf6b58ebfd2eb31846d06c1b665c723e5641465229b5f",
+      "bytes": 47045
+    },
+    {
+      "fips": "05027",
+      "features": 1386,
+      "file": "05027.093ff26f0a4bc9f38e36785e86f387e6ccfdd6772f8af2b66ba129525063d686.topo.json.gz",
+      "sha256": "093ff26f0a4bc9f38e36785e86f387e6ccfdd6772f8af2b66ba129525063d686",
+      "bytes": 98283
+    },
+    {
+      "fips": "05029",
+      "features": 1287,
+      "file": "05029.fd690f4dab98c7892751233b3f3424b29aa8e8588386551edae670097565e6d5.topo.json.gz",
+      "sha256": "fd690f4dab98c7892751233b3f3424b29aa8e8588386551edae670097565e6d5",
+      "bytes": 80398
+    },
+    {
+      "fips": "05031",
+      "features": 3204,
+      "file": "05031.489a95cacb6cc0e75d72ccaa201b2f8072cf761cbcdb1e6f93bf6f9b52cfddea.topo.json.gz",
+      "sha256": "489a95cacb6cc0e75d72ccaa201b2f8072cf761cbcdb1e6f93bf6f9b52cfddea",
+      "bytes": 164777
+    },
+    {
+      "fips": "05033",
+      "features": 2107,
+      "file": "05033.46715701e2ca6b050c99b0e4191da7bf8f4977b16da3229518cd8d615d9cadc5.topo.json.gz",
+      "sha256": "46715701e2ca6b050c99b0e4191da7bf8f4977b16da3229518cd8d615d9cadc5",
+      "bytes": 134161
+    },
+    {
+      "fips": "05035",
+      "features": 2107,
+      "file": "05035.c9878a4418dbbbd080677b5afb9919adb6f97577dc77f0fa6ac2c6b8ae8e5788.topo.json.gz",
+      "sha256": "c9878a4418dbbbd080677b5afb9919adb6f97577dc77f0fa6ac2c6b8ae8e5788",
+      "bytes": 114832
+    },
+    {
+      "fips": "05037",
+      "features": 1173,
+      "file": "05037.87fae6cd39f5877df3d76a3be4963629ecdb8fa66a14598a46e204e044ea7ea8.topo.json.gz",
+      "sha256": "87fae6cd39f5877df3d76a3be4963629ecdb8fa66a14598a46e204e044ea7ea8",
+      "bytes": 69458
+    },
+    {
+      "fips": "05039",
+      "features": 1075,
+      "file": "05039.d0661cf2bd30960c5fa5b076932126df278f33b61b789e40837b165c4947703d.topo.json.gz",
+      "sha256": "d0661cf2bd30960c5fa5b076932126df278f33b61b789e40837b165c4947703d",
+      "bytes": 75566
+    },
+    {
+      "fips": "05041",
+      "features": 1095,
+      "file": "05041.004a94ac4c60277f653a5d669b1b11875eebf50946757729a86a3b5b07475c7a.topo.json.gz",
+      "sha256": "004a94ac4c60277f653a5d669b1b11875eebf50946757729a86a3b5b07475c7a",
+      "bytes": 68946
+    },
+    {
+      "fips": "05043",
+      "features": 1221,
+      "file": "05043.5efd865d5baf1806e9e9fb0f583f5257ff00da32d8c89f7f8295350c52756647.topo.json.gz",
+      "sha256": "5efd865d5baf1806e9e9fb0f583f5257ff00da32d8c89f7f8295350c52756647",
+      "bytes": 91061
+    },
+    {
+      "fips": "05045",
+      "features": 2893,
+      "file": "05045.e7c5bf558f0f07229a39f8348ca3bfb5196fba1016daa103a36e6454ae423cd0.topo.json.gz",
+      "sha256": "e7c5bf558f0f07229a39f8348ca3bfb5196fba1016daa103a36e6454ae423cd0",
+      "bytes": 178076
+    },
+    {
+      "fips": "05047",
+      "features": 1377,
+      "file": "05047.084b91e68e3bd2a65715092404b6801bab019df19cdda0fa83a6284ba1699317.topo.json.gz",
+      "sha256": "084b91e68e3bd2a65715092404b6801bab019df19cdda0fa83a6284ba1699317",
+      "bytes": 88885
+    },
+    {
+      "fips": "05049",
+      "features": 1244,
+      "file": "05049.15b65b0b5689380c9cdc0c4e033d5d092154c369996830d0fb0a8d566d45d5f7.topo.json.gz",
+      "sha256": "15b65b0b5689380c9cdc0c4e033d5d092154c369996830d0fb0a8d566d45d5f7",
+      "bytes": 89868
+    },
+    {
+      "fips": "05051",
+      "features": 3910,
+      "file": "05051.22bb41802d9609894c43e4c07f7d2f1de251630964783475134190f7fad2c272.topo.json.gz",
+      "sha256": "22bb41802d9609894c43e4c07f7d2f1de251630964783475134190f7fad2c272",
+      "bytes": 254455
+    },
+    {
+      "fips": "05053",
+      "features": 1137,
+      "file": "05053.0360ee2ad0818562bb57eaaf031892341b4caf9273a45b5b2800ca067f75838a.topo.json.gz",
+      "sha256": "0360ee2ad0818562bb57eaaf031892341b4caf9273a45b5b2800ca067f75838a",
+      "bytes": 81499
+    },
+    {
+      "fips": "05055",
+      "features": 1794,
+      "file": "05055.456faa2c307409f2d4006e07fa071302e8bfd5e6584dba8f9bb6d0e60585376e.topo.json.gz",
+      "sha256": "456faa2c307409f2d4006e07fa071302e8bfd5e6584dba8f9bb6d0e60585376e",
+      "bytes": 99117
+    },
+    {
+      "fips": "05057",
+      "features": 1640,
+      "file": "05057.09072ac135a2caa11196c5f8fe0f1136bfbcd303170535ef3ed8120507e73732.topo.json.gz",
+      "sha256": "09072ac135a2caa11196c5f8fe0f1136bfbcd303170535ef3ed8120507e73732",
+      "bytes": 96686
+    },
+    {
+      "fips": "05059",
+      "features": 1907,
+      "file": "05059.94d417be25118f56f69658fe9c61a51cf6e0b6f07044a9d71154573b617da83c.topo.json.gz",
+      "sha256": "94d417be25118f56f69658fe9c61a51cf6e0b6f07044a9d71154573b617da83c",
+      "bytes": 120633
+    },
+    {
+      "fips": "05061",
+      "features": 1594,
+      "file": "05061.14c40a7ca90b67b3d0baaa3dc64869170913d77ae6e0a33732dea41c6f110246.topo.json.gz",
+      "sha256": "14c40a7ca90b67b3d0baaa3dc64869170913d77ae6e0a33732dea41c6f110246",
+      "bytes": 115124
+    },
+    {
+      "fips": "05063",
+      "features": 1827,
+      "file": "05063.67c1965d2c8535d87e8906d8b288caec49158d5c727add563a901eda4936c18d.topo.json.gz",
+      "sha256": "67c1965d2c8535d87e8906d8b288caec49158d5c727add563a901eda4936c18d",
+      "bytes": 127067
+    },
+    {
+      "fips": "05065",
+      "features": 1529,
+      "file": "05065.d24060547077167edc7071bc054e30ab7b0a57e2ce8207021153d69971d0167c.topo.json.gz",
+      "sha256": "d24060547077167edc7071bc054e30ab7b0a57e2ce8207021153d69971d0167c",
+      "bytes": 108565
+    },
+    {
+      "fips": "05067",
+      "features": 1559,
+      "file": "05067.3db649771f5497c3ad3f0929ede9a87c5683048557656509dd53250d744ae4c0.topo.json.gz",
+      "sha256": "3db649771f5497c3ad3f0929ede9a87c5683048557656509dd53250d744ae4c0",
+      "bytes": 92536
+    },
+    {
+      "fips": "05069",
+      "features": 3789,
+      "file": "05069.125b001067ef5380fa4043f33e60014c56356b9764858e763f42cf116702d189.topo.json.gz",
+      "sha256": "125b001067ef5380fa4043f33e60014c56356b9764858e763f42cf116702d189",
+      "bytes": 193876
+    },
+    {
+      "fips": "05071",
+      "features": 1545,
+      "file": "05071.a48dc2ad7aadfc0aacc188b81cdbc0db53094beff0f13f642f993c55d58ecd92.topo.json.gz",
+      "sha256": "a48dc2ad7aadfc0aacc188b81cdbc0db53094beff0f13f642f993c55d58ecd92",
+      "bytes": 98025
+    },
+    {
+      "fips": "05073",
+      "features": 984,
+      "file": "05073.480a5c964047beb392f687cb19de77de512cf7c1c3d25bb5f9b5710ce9301782.topo.json.gz",
+      "sha256": "480a5c964047beb392f687cb19de77de512cf7c1c3d25bb5f9b5710ce9301782",
+      "bytes": 63162
+    },
+    {
+      "fips": "05075",
+      "features": 1540,
+      "file": "05075.6bd381c371c13498f5c7b038617b4149eff1213ad434f8c29718663a8cb9781d.topo.json.gz",
+      "sha256": "6bd381c371c13498f5c7b038617b4149eff1213ad434f8c29718663a8cb9781d",
+      "bytes": 96527
+    },
+    {
+      "fips": "05077",
+      "features": 791,
+      "file": "05077.cc32c1bcbf5ac02d66e7df206501a75addb971e2460ee7ffdc8a88da215495ff.topo.json.gz",
+      "sha256": "cc32c1bcbf5ac02d66e7df206501a75addb971e2460ee7ffdc8a88da215495ff",
+      "bytes": 51626
+    },
+    {
+      "fips": "05079",
+      "features": 780,
+      "file": "05079.16b4cbb9c2c340bb3cb004348cf14ef86834a27b756e6a442de688c32616310a.topo.json.gz",
+      "sha256": "16b4cbb9c2c340bb3cb004348cf14ef86834a27b756e6a442de688c32616310a",
+      "bytes": 52912
+    },
+    {
+      "fips": "05081",
+      "features": 1269,
+      "file": "05081.81e1cfcef6c25d3d0f2369716f679532fbfc6cf95dc723ba7101733e177bd4a1.topo.json.gz",
+      "sha256": "81e1cfcef6c25d3d0f2369716f679532fbfc6cf95dc723ba7101733e177bd4a1",
+      "bytes": 77554
+    },
+    {
+      "fips": "05083",
+      "features": 1402,
+      "file": "05083.42f8efc9be2df9fb79149cf28e516c953049b5c8db5ea78d3ca569502b5ce67e.topo.json.gz",
+      "sha256": "42f8efc9be2df9fb79149cf28e516c953049b5c8db5ea78d3ca569502b5ce67e",
+      "bytes": 89093
+    },
+    {
+      "fips": "05085",
+      "features": 2270,
+      "file": "05085.eb00251d748261bccb9f1c4912fbf3d2ec19c0d018cf32c1a6a28f1ae835e221.topo.json.gz",
+      "sha256": "eb00251d748261bccb9f1c4912fbf3d2ec19c0d018cf32c1a6a28f1ae835e221",
+      "bytes": 129439
+    },
+    {
+      "fips": "05087",
+      "features": 825,
+      "file": "05087.66d7e871859f024b8c7d2eafe03efce3c2d21259f4e5db90ca02d5ba73987d5b.topo.json.gz",
+      "sha256": "66d7e871859f024b8c7d2eafe03efce3c2d21259f4e5db90ca02d5ba73987d5b",
+      "bytes": 72361
+    },
+    {
+      "fips": "05089",
+      "features": 1373,
+      "file": "05089.11e6112187866f11d6e8564d48437fe17a3130b809bd2be7f849e741124ba7e5.topo.json.gz",
+      "sha256": "11e6112187866f11d6e8564d48437fe17a3130b809bd2be7f849e741124ba7e5",
+      "bytes": 107435
+    },
+    {
+      "fips": "05091",
+      "features": 2035,
+      "file": "05091.f07fd55beff471a2e2371c258ad2f1a809b78cdccaec26cb6220a2cc6218f7d1.topo.json.gz",
+      "sha256": "f07fd55beff471a2e2371c258ad2f1a809b78cdccaec26cb6220a2cc6218f7d1",
+      "bytes": 115530
+    },
+    {
+      "fips": "05093",
+      "features": 2722,
+      "file": "05093.8cc3d95e1e8c62d50a44e377b25c36518b3eb09bb4db0280dcb5d282eccf8715.topo.json.gz",
+      "sha256": "8cc3d95e1e8c62d50a44e377b25c36518b3eb09bb4db0280dcb5d282eccf8715",
+      "bytes": 141274
+    },
+    {
+      "fips": "05095",
+      "features": 921,
+      "file": "05095.84bb6ef6c2cfabb1fa0fc153111d23529c49f4b1bf63873bd8465ee4189bc2b7.topo.json.gz",
+      "sha256": "84bb6ef6c2cfabb1fa0fc153111d23529c49f4b1bf63873bd8465ee4189bc2b7",
+      "bytes": 60443
+    },
+    {
+      "fips": "05097",
+      "features": 1041,
+      "file": "05097.14689ff43567a2948d33c30e1c1bf24f0cc8640f42d196e6727870302026dbf2.topo.json.gz",
+      "sha256": "14689ff43567a2948d33c30e1c1bf24f0cc8640f42d196e6727870302026dbf2",
+      "bytes": 85621
+    },
+    {
+      "fips": "05099",
+      "features": 1075,
+      "file": "05099.2531bf44ba0e87b78356092210b1dad1fd46f737b2b4edd88eb2b14040a30af5.topo.json.gz",
+      "sha256": "2531bf44ba0e87b78356092210b1dad1fd46f737b2b4edd88eb2b14040a30af5",
+      "bytes": 70533
+    },
+    {
+      "fips": "05101",
+      "features": 922,
+      "file": "05101.1cb01e56da399891a019dca6fb9e5ed88e08666e54e2f3c98ef3b5554169bab3.topo.json.gz",
+      "sha256": "1cb01e56da399891a019dca6fb9e5ed88e08666e54e2f3c98ef3b5554169bab3",
+      "bytes": 73016
+    },
+    {
+      "fips": "05103",
+      "features": 1609,
+      "file": "05103.26105a4f2a696f080837fbdc3a45876fdddacd6966461a7be7d8d32e041e42e8.topo.json.gz",
+      "sha256": "26105a4f2a696f080837fbdc3a45876fdddacd6966461a7be7d8d32e041e42e8",
+      "bytes": 103206
+    },
+    {
+      "fips": "05105",
+      "features": 934,
+      "file": "05105.1627775db01003564d98d12d7e96a6bf1a009e039f70c02757c26f82ac7efbbe.topo.json.gz",
+      "sha256": "1627775db01003564d98d12d7e96a6bf1a009e039f70c02757c26f82ac7efbbe",
+      "bytes": 68892
+    },
+    {
+      "fips": "05107",
+      "features": 1407,
+      "file": "05107.032db7a21be7b62f85b8ad37d8cc59adb968590a51eea62269fe15f19ceffa2f.topo.json.gz",
+      "sha256": "032db7a21be7b62f85b8ad37d8cc59adb968590a51eea62269fe15f19ceffa2f",
+      "bytes": 79435
+    },
+    {
+      "fips": "05109",
+      "features": 1458,
+      "file": "05109.e33981543e4773eb4bfac5c556a36184fc100c70327ba8eb329fdd6a41f8bfb7.topo.json.gz",
+      "sha256": "e33981543e4773eb4bfac5c556a36184fc100c70327ba8eb329fdd6a41f8bfb7",
+      "bytes": 111110
+    },
+    {
+      "fips": "05111",
+      "features": 1711,
+      "file": "05111.65ca2b7f5af6afadb2dbd524e1e75a38017e6b5a79a5a656c887fa66ebc5e3f3.topo.json.gz",
+      "sha256": "65ca2b7f5af6afadb2dbd524e1e75a38017e6b5a79a5a656c887fa66ebc5e3f3",
+      "bytes": 97622
+    },
+    {
+      "fips": "05113",
+      "features": 1836,
+      "file": "05113.d4cc61c6ad97f1c36b1166bd5b01f355cba8d5cff28eba98eb96a0680581ad99.topo.json.gz",
+      "sha256": "d4cc61c6ad97f1c36b1166bd5b01f355cba8d5cff28eba98eb96a0680581ad99",
+      "bytes": 135808
+    },
+    {
+      "fips": "05115",
+      "features": 2424,
+      "file": "05115.d0f392f82e0044d5cc2a2693a791eb15be4e50dc27b8fd3756b30bf6624bc486.topo.json.gz",
+      "sha256": "d0f392f82e0044d5cc2a2693a791eb15be4e50dc27b8fd3756b30bf6624bc486",
+      "bytes": 141381
+    },
+    {
+      "fips": "05117",
+      "features": 1100,
+      "file": "05117.e0d549a8b6359eddf506675cff1f057e9e8a1795cbbdbe9ebc1836c13705d952.topo.json.gz",
+      "sha256": "e0d549a8b6359eddf506675cff1f057e9e8a1795cbbdbe9ebc1836c13705d952",
+      "bytes": 76467
+    },
+    {
+      "fips": "05119",
+      "features": 9543,
+      "file": "05119.0532be5e5752dd9933f51bb2c0f3ad5e18258b85082c22f0f55c9c7d01cac3eb.topo.json.gz",
+      "sha256": "0532be5e5752dd9933f51bb2c0f3ad5e18258b85082c22f0f55c9c7d01cac3eb",
+      "bytes": 483105
+    },
+    {
+      "fips": "05121",
+      "features": 1183,
+      "file": "05121.3dffb5b0d4b75086cc81b93aaee315647fefd1ca561070059f93dda55bcc55b0.topo.json.gz",
+      "sha256": "3dffb5b0d4b75086cc81b93aaee315647fefd1ca561070059f93dda55bcc55b0",
+      "bytes": 80784
+    },
+    {
+      "fips": "05123",
+      "features": 1494,
+      "file": "05123.bf433d7e675017ddb7123aa2ef0eff8248baf36fa8b9c7cff6c25ab052edf12a.topo.json.gz",
+      "sha256": "bf433d7e675017ddb7123aa2ef0eff8248baf36fa8b9c7cff6c25ab052edf12a",
+      "bytes": 87551
+    },
+    {
+      "fips": "05125",
+      "features": 2956,
+      "file": "05125.169a62b10228509ff99bba54b11290a091f14b4df800107bc234d6a545a546e1.topo.json.gz",
+      "sha256": "169a62b10228509ff99bba54b11290a091f14b4df800107bc234d6a545a546e1",
+      "bytes": 187011
+    },
+    {
+      "fips": "05127",
+      "features": 1085,
+      "file": "05127.14a707f5214dfdc88ba51d2bf8b6ec5c4e80696e11362bc4a49c7c50a6b1fcc8.topo.json.gz",
+      "sha256": "14a707f5214dfdc88ba51d2bf8b6ec5c4e80696e11362bc4a49c7c50a6b1fcc8",
+      "bytes": 87429
+    },
+    {
+      "fips": "05129",
+      "features": 952,
+      "file": "05129.12c01f3005fe5f1375f2ed65c45abcd3449811e395d78281de1492d02471eeec.topo.json.gz",
+      "sha256": "12c01f3005fe5f1375f2ed65c45abcd3449811e395d78281de1492d02471eeec",
+      "bytes": 69548
+    },
+    {
+      "fips": "05131",
+      "features": 4057,
+      "file": "05131.7e5796825c56c0b859d0a94be99c995482cf4048e55edac218e0dc39cba3f3a6.topo.json.gz",
+      "sha256": "7e5796825c56c0b859d0a94be99c995482cf4048e55edac218e0dc39cba3f3a6",
+      "bytes": 220436
+    },
+    {
+      "fips": "05133",
+      "features": 1183,
+      "file": "05133.b8373c4cf5432b7cc473213df2c57247bf325870d9cec80c94cf314a8359fe1c.topo.json.gz",
+      "sha256": "b8373c4cf5432b7cc473213df2c57247bf325870d9cec80c94cf314a8359fe1c",
+      "bytes": 81118
+    },
+    {
+      "fips": "05135",
+      "features": 1495,
+      "file": "05135.51151a37b7821e33cc4652256f1fffef06d90b6edd796742aee8f6fdadaeb856.topo.json.gz",
+      "sha256": "51151a37b7821e33cc4652256f1fffef06d90b6edd796742aee8f6fdadaeb856",
+      "bytes": 101607
+    },
+    {
+      "fips": "05137",
+      "features": 777,
+      "file": "05137.3370826c10c8ea8f3180bdec5d2bb3b261d4c55fcfa44bca4f9f1dc81f2bb031.topo.json.gz",
+      "sha256": "3370826c10c8ea8f3180bdec5d2bb3b261d4c55fcfa44bca4f9f1dc81f2bb031",
+      "bytes": 62584
+    },
+    {
+      "fips": "05139",
+      "features": 2297,
+      "file": "05139.4a2e96c013200382d6b7cbdc87f33bf73f418b99e3f2b2512e212699cb4a0b16.topo.json.gz",
+      "sha256": "4a2e96c013200382d6b7cbdc87f33bf73f418b99e3f2b2512e212699cb4a0b16",
+      "bytes": 147915
+    },
+    {
+      "fips": "05141",
+      "features": 1462,
+      "file": "05141.ddaf7d87dbe797d56f22d2a1ae04940bad3f1d0005f7ce4bf2dac4c9a1aacf64.topo.json.gz",
+      "sha256": "ddaf7d87dbe797d56f22d2a1ae04940bad3f1d0005f7ce4bf2dac4c9a1aacf64",
+      "bytes": 101191
+    },
+    {
+      "fips": "05143",
+      "features": 5168,
+      "file": "05143.6887fdf956a077096327373db9e3d425e3ad8c9cf18d262e267b5bc4ba744468.topo.json.gz",
+      "sha256": "6887fdf956a077096327373db9e3d425e3ad8c9cf18d262e267b5bc4ba744468",
+      "bytes": 299109
+    },
+    {
+      "fips": "05145",
+      "features": 2743,
+      "file": "05145.e8876154e8f88111966e33e303455de20889be42ae0f79fdaeb8945e8f52f09b.topo.json.gz",
+      "sha256": "e8876154e8f88111966e33e303455de20889be42ae0f79fdaeb8945e8f52f09b",
+      "bytes": 162035
+    },
+    {
+      "fips": "05147",
+      "features": 838,
+      "file": "05147.d3135cc3732894832dee0d5456958c1d7aa08aca5a859639dc70c3b3d662795e.topo.json.gz",
+      "sha256": "d3135cc3732894832dee0d5456958c1d7aa08aca5a859639dc70c3b3d662795e",
+      "bytes": 57166
+    },
+    {
+      "fips": "05149",
+      "features": 1520,
+      "file": "05149.9f000fa5bdb6bac6286f5d808cc7ec22a250e272f218007ae1494ebafdafcb12.topo.json.gz",
+      "sha256": "9f000fa5bdb6bac6286f5d808cc7ec22a250e272f218007ae1494ebafdafcb12",
+      "bytes": 104579
+    }
+  ],
+  "water": {
+    "file": "water.811224d58b3776096dac97cd63c4e4761cc3b1bd8f97310717c3dccd74690cc7.bin.gz",
+    "sha256": "811224d58b3776096dac97cd63c4e4761cc3b1bd8f97310717c3dccd74690cc7",
+    "bytes": 5617
+  },
+  "towns": {
+    "file": "towns.ad33ba3ea2190407a3d0c8f04dad7231fc24aa29267b62d1e9d2eafa18fa2cec.bin.gz",
+    "sha256": "ad33ba3ea2190407a3d0c8f04dad7231fc24aa29267b62d1e9d2eafa18fa2cec",
+    "bytes": 16048,
+    "count": 501,
+    "kind": "incorporated-place"
+  }
+}

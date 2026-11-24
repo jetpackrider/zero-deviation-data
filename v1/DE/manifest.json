@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "state": "DE",
+  "stateFips": "10",
+  "censusVintage": "2020 (January 2023 TABBLOCK20 re-release)",
+  "draDataVersion": "v08",
+  "precinctKind": "vtd",
+  "attribution": "Contains adapted Dave's Redistricting data (https://github.com/dra2020/vtd_data), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Do not sell. U.S. Census Bureau data are public domain. Block data credit: https://github.com/dra2020/block_data.",
+  "sources": {
+    "tiger": {
+      "url": "https://www2.census.gov/geo/tiger/TIGER2020/TABBLOCK20/tl_2020_10_tabblock20.zip",
+      "sha256": "de20500a99debb0d5da4d12f5327fb847265656472a64fe656603cc90b9993da"
+    },
+    "precincts": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/DE/Demographic_Data_DE.v08.zip",
+      "sha256": "54ffedb31a652210e5676cd48183e4c288f3aad3a9712bb183d698816b166653"
+    },
+    "graph": {
+      "url": "https://raw.githubusercontent.com/dra2020/vtd_data/adde69e33112bd2c271cafea1357bacf109a9454/2020_VTD/DE/Geojson_DE.v08.zip",
+      "sha256": "ece2f4bfaba978f4431d3f7ca138bb45b89fc8a1c724acc14d6c24ee7173804a"
+    },
+    "blockCatalog": {
+      "url": "https://raw.githubusercontent.com/dra2020/block_data/d0e617bd8607bd40be882c344f7b20500ace993b/2020_Geography/DE/Demographic_Data_Block_DE.v08.md",
+      "sha256": "bf7ee6cccdeeeacdc1987fcbcfef6369eecb4b004556054b81cad7fdabdad35e"
+    },
+    "fixture": {
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2025/119-congressional-district-befs/cd119.zip",
+      "sha256": "1433feb5178dc7b4188ee30f5f7f715851f4400740b8fe1ce606a876c6294bd6"
+    },
+    "baf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST10_DE.zip",
+      "sha256": "8f81f5239dca88f378f098325ae630d215bf0c5fd8986a088d2b2b2c4746f6d9"
+    },
+    "blocks": {
+      "url": "https://data.dra2020.net/file/dra-block-data/Demographic_Data_Block_DE.v08.zip",
+      "sha256": "97d78bedcea36564d11f269685a7da97c564aa858167ae98ab11fbdab699cd70"
+    },
+    "townBaf": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/baf2020/BlockAssign_ST10_DE.zip",
+      "sha256": "8f81f5239dca88f378f098325ae630d215bf0c5fd8986a088d2b2b2c4746f6d9"
+    },
+    "townPlaces": {
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_Gaz_place_national.zip",
+      "sha256": "6e5745b3e1adf7a1e024a988301d484697e2a0f25b3cf10114eef676f09d5c18"
+    }
+  },
+  "attrs": {
+    "file": "attrs.244759a9d6e06da11c54738b621212bd65430abd0ab487d277481e5c4237e034.bin.gz",
+    "sha256": "244759a9d6e06da11c54738b621212bd65430abd0ab487d277481e5c4237e034",
+    "bytes": 360817
+  },
+  "counties": [
+    {
+      "fips": "10001",
+      "features": 4133,
+      "file": "10001.b09b9f10d70acf1a30e6c0ff90dc572b1f679269588e91bbad08eef4af77cdde.topo.json.gz",
+      "sha256": "b09b9f10d70acf1a30e6c0ff90dc572b1f679269588e91bbad08eef4af77cdde",
+      "bytes": 234846
+    },
+    {
+      "fips": "10003",
+      "features": 8727,
+      "file": "10003.f2c7d8e1e4e255e47d7a84c869d2508cb3fce42a8a09f7511aa2c4053c8c0619.topo.json.gz",
+      "sha256": "f2c7d8e1e4e255e47d7a84c869d2508cb3fce42a8a09f7511aa2c4053c8c0619",
+      "bytes": 455436
+    },
+    {
+      "fips": "10005",
+      "features": 7338,
+      "file": "10005.f0b171f7fcf23b60bd45c88a0ab1f314766eee04ea019649a70e615b0e499835.topo.json.gz",
+      "sha256": "f0b171f7fcf23b60bd45c88a0ab1f314766eee04ea019649a70e615b0e499835",
+      "bytes": 417273
+    }
+  ],
+  "water": {
+    "file": "water.1252f9cab7983c3ba7dda2c701e49b067d0af042804ad4eb578def2ef0a8c64c.bin.gz",
+    "sha256": "1252f9cab7983c3ba7dda2c701e49b067d0af042804ad4eb578def2ef0a8c64c",
+    "bytes": 669
+  },
+  "towns": {
+    "file": "towns.315bcf4b9bd1db1b869831ad0e9ceed1248cad5fc6b6288a8c65ce4c19b73d91.bin.gz",
+    "sha256": "315bcf4b9bd1db1b869831ad0e9ceed1248cad5fc6b6288a8c65ce4c19b73d91",
+    "bytes": 2031,
+    "count": 57,
+    "kind": "incorporated-place"
+  }
+}
