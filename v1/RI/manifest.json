@@ -101,5 +101,20 @@
     "bytes": 325,
     "count": 39,
     "kind": "county-subdivision"
+  },
+  "points": {
+    "file": "points.2092f67c1495da85a7901470ed2c322537ec5f84ba0cb23c4a97b5a7cb531f54.bin.gz",
+    "sha256": "2092f67c1495da85a7901470ed2c322537ec5f84ba0cb23c4a97b5a7cb531f54",
+    "bytes": 146530
+  },
+  "names": {
+    "file": "names.411882ecd3cd5906877b1b4c0f8c9da93b2cbd34d2287b972e8299715b995817.json.gz",
+    "sha256": "411882ecd3cd5906877b1b4c0f8c9da93b2cbd34d2287b972e8299715b995817",
+    "bytes": 357
+  },
+  "outlines": {
+    "file": "outlines.5e5c53d478040281531b099d03f395b0def34b4f93cae97fde7d1ea1a179be14.json.gz",
+    "sha256": "5e5c53d478040281531b099d03f395b0def34b4f93cae97fde7d1ea1a179be14",
+    "bytes": 16331
   }
 }

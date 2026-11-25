@@ -727,5 +727,20 @@
     "bytes": 18937,
     "count": 345,
     "kind": "incorporated-place"
+  },
+  "points": {
+    "file": "points.028864a63b618859224e2f77556de55f9f9ad61c75e55f6772afc7446d6f1402.bin.gz",
+    "sha256": "028864a63b618859224e2f77556de55f9f9ad61c75e55f6772afc7446d6f1402",
+    "bytes": 1102943
+  },
+  "names": {
+    "file": "names.cea92c393f8fe6b2b9b6f258db10f54569336d304562c171b573cc6a59b5282f.json.gz",
+    "sha256": "cea92c393f8fe6b2b9b6f258db10f54569336d304562c171b573cc6a59b5282f",
+    "bytes": 2450
+  },
+  "outlines": {
+    "file": "outlines.f6979d066748e7a9269aac7166785ac91c88265df94ff0e4b406db25045c058d.json.gz",
+    "sha256": "f6979d066748e7a9269aac7166785ac91c88265df94ff0e4b406db25045c058d",
+    "bytes": 263138
   }
 }
